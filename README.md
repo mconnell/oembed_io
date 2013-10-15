@@ -2,11 +2,11 @@
 
 This is a simple rubygem for interacting with the website http://oembed.io
 
-# install
+## install
 
     gem install oembed_io
 
-# how to use
+## how to use
 
     require 'oembed_io'
 
@@ -21,3 +21,7 @@ This is a simple rubygem for interacting with the website http://oembed.io
 The `#valid?` method will not prevent you from calling `#uri`, but is a friendly guard to help prevent bad strings.
 
 Valid will sanity check the input uri and attempt to open the oembed uri to verify with the oembed.io endpoint.
+
+## Contributing
+
+Feel free to fork the repository and make pull requests :)
