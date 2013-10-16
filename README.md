@@ -15,7 +15,8 @@ This is a simple rubygem for interacting with the website http://oembed.io
     oembed.valid?
     #=> true
 
-    oembed.uri
+    # generate a URI object
+    oembed.uri.to_s
     #=> "http://oembed.io/api?url=http://www.youtube.com/watch?v=5zey8567bcg"
 
 The `#valid?` method will not prevent you from calling `#uri`, but is a friendly guard to help prevent bad strings.
